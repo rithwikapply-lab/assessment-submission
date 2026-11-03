@@ -6,7 +6,7 @@ This repository combines four separate task repositories with their full commit 
 
 | Task | Folder | Repository | Stack | Tests | Commits |
 |---|---|---|---|---|---|
-| Task 1: MCP Customer Server | `Task1-mcp-customer-server` | [Task1-mcp-customer-server](https://github.com/rithwikapply-lab/Task1-mcp-customer-server) | TypeScript, Model Context Protocol SDK, zod, vitest | 32 tests | 21 commits |
+| Task 1: MCP Customer Server | `Task1-mcp-customer-server` | [Task1-mcp-customer-server](https://github.com/rithwikapply-lab/Task1-mcp-customer-server) | TypeScript, Model Context Protocol SDK, zod, vitest | 32 tests | 22 commits |
 | Task 2: MCP Gateway Proxy | `Task2-mcp-gateway-proxy` | [Task2-mcp-gateway-proxy](https://github.com/rithwikapply-lab/Task2-mcp-gateway-proxy) | TypeScript on Node, Express | 104 tests | 25 commits |
 | Task 3: LLM Gateway Guardrail | `Task3-llm-gateway-guardrail` | [Task3-llm-gateway-guardrail](https://github.com/rithwikapply-lab/Task3-llm-gateway-guardrail) | TypeScript on Node, Express | 49 tests | 23 commits |
 | Task 4: LLM Fallback Router | `Task4-llm-fallback-router` | [Task4-llm-fallback-router](https://github.com/rithwikapply-lab/Task4-llm-fallback-router) | Python 3.11+, FastAPI, SQLite | 82 tests | 26 commits |
