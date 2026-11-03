@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "pretest": "npm run build",
     "start": "node dist/index.js",
     "test": "vitest run",
     "test:stdio": "bash -c 'printf \"{\\\"jsonrpc\\\":\\\"2.0\\\",\\\"id\\\":1,\\\"method\\\":\\\"initialize\\\",\\\"params\\\":{\\\"protocolVersion\\\":\\\"2024-11-05\\\",\\\"capabilities\\\":{},\\\"clientInfo\\\":{\\\"name\\\":\\\"smoke-client\\\",\\\"version\\\":\\\"1.0.0\\\"}}}\\n\" | node dist/index.js | jq -e .'"
